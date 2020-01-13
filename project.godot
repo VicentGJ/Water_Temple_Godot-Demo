@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Water_Temple_Demo"
+run/main_scene="res://monkey_temple/monkey_temple.tscn"
+config/icon="res://icon.png"
+
+[debug]
+
+settings/stdout/print_fps=true
+
+[display]
+
+window/vsync/use_vsync=false
+
+[rendering]
+
+threads/thread_model=2
+quality/shadows/filter_mode=2
+quality/filters/use_nearest_mipmap_filter=true
+quality/subsurface_scattering/quality=2
+quality/subsurface_scattering/follow_surface=true
+quality/filters/msaa=3
+environment/default_environment="res://default_env.tres"
