@@ -17,7 +17,6 @@ _global_script_class_icons={
 
 config/name="Water_Temple_Demo"
 run/main_scene="res://monkey_temple/monkey_temple.tscn"
-config/icon="res://icon.png"
 
 [debug]
 
